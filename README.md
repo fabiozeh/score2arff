@@ -7,7 +7,7 @@ All code available has been developed and tested in Mathworks MATLAB r2018a.
 
 When cloning this repository, remember to do so with the "recursive" option (Git 1.6.5 or later) in order to load submodules as well.
 ```
-git clone --recursive https://github.com/fabiozeh/expressiveViolin.git
+git clone --recursive https://github.com/fabiozeh/score2arff
 ```
 
 To use the script, simply supply the paths to the input musicXML file and desired output ARFF file.
