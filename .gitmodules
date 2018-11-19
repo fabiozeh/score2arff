@@ -1,0 +1,8 @@
+[submodule "1.1"]
+	path = miditoolbox
+	url = https://github.com/miditoolbox/1.1
+	branch = master
+[submodule "62018d04ee9f507bf800d157e89c579f"]
+	path = musicXML
+	url = https://gist.github.com/fabiozeh/62018d04ee9f507bf800d157e89c579f
+	branch = master
