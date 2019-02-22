@@ -21,11 +21,11 @@ if iscell(attrformat)
 end
 
 F = fopen(filename, 'wt');
-fprintf(F, '%s', ['@relation ' filename newline newline]);
+fprintf(F, '%s', ['@relation ' filename char(10) char(10)]); %#ok
 for i = 1:size(x,2)
-fprintf(F, '%s', ['@attribute ' attrnames{i} ' ' attrtypes{i} newline]);
+fprintf(F, '%s', ['@attribute ' attrnames{i} ' ' attrtypes{i} char(10)]); %#ok
 end
-fprintf(F, '%s', [newline '@data' newline]);
+fprintf(F, '%s', [char(10) '@data' char(10)]); %#ok
 
 for i = 1:size(x,1)
   fprintf(F,[attrformat '\n'],x(i,:));
